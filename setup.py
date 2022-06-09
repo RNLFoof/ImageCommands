@@ -11,6 +11,6 @@ setup(
    long_description=long_description,
    author='Zachary Zablotsky',
    url="https://github.com/RNLFoof/ImageCommands",
-   packages=['ZachsStupidImageLibrary'],
-   install_requires=['Pillow', 'wand']
+   packages=['ImageCommands'],
+   install_requires=['Pillow']
 )
