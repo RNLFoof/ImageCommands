@@ -107,7 +107,7 @@ class Goon:
         self.commander.cursor.execute("""UPDATE imagecommands SET lastinteraction = ? WHERE commandhash = ?""",
                          (time.time(), self.commandhash))
 
-commander = Commander()
-goon = commander.spawngoon('print("LOL")')
-goon.saveimage("test {}.png")
-goon.act()
+# commander = Commander()
+# goon = commander.spawngoon('print("LOL")')
+# goon.saveimage("test {}.png")
+# goon.act()
