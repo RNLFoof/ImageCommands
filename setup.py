@@ -5,7 +5,7 @@ with open("README.md", 'r') as f:
 
 setup(
    name='ImageCommands',
-   version='1.0',
+   version='1.1',
    description='Beware',
    license="MIT",
    long_description=long_description,
